@@ -7,6 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.mount('blog-engine', { as: 'blog', path: '/blog' });  
+  this.mount('blog-engine', { as: 'blog', path: '/another-blog' });  
 });
 
 export default Router;
