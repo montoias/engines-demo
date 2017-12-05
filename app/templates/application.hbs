@@ -4,13 +4,8 @@
 
     <span class="flex"></span>
 
-    {{#paper-button}}
-        {{#link-to 'admin'}}Admin{{/link-to}}
-    {{/paper-button}}
-    
-    {{#paper-button}}
-        {{#link-to 'blog'}}Blog{{/link-to}}
-    {{/paper-button}}
+    {{#link-to 'admin'}}{{#paper-button}}Admin{{/paper-button}}{{/link-to}}
+    {{#link-to 'blog'}}{{#paper-button}}Blog{{/paper-button}}{{/link-to}}
   {{/toolbar.tools}}
 {{/paper-toolbar}}
 
