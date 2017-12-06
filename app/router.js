@@ -7,10 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  // in repo addon
+  // in repo engine
   this.mount('admin-engine', { as: 'admin', path: '/admin' });
 
-  // standard addon
+  // standalone addon
   this.mount('blog-engine', { as: 'blog', path: '/blog' });
 });
 
